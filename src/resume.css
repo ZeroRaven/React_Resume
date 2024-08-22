@@ -1,0 +1,107 @@
+.titleH {
+    margin: 5px 0px 5px 0px;
+    border-bottom: 2px solid #000000; /* Add this line for the underline */
+}
+
+.a4-page {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    padding: 0.5in; /* Set padding to 0.5 inch on all sides */
+    margin: auto; /* Center the page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual effect */
+    background: white; /* Background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name {
+    margin: 0 0 2px 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.titlep {
+    font-size: 1.5em;
+}
+
+.tspace {
+    margin: 0px 0px 10px 0px;
+}
+
+.skills {
+    margin: 10px 0px 10px 0px;
+}
+
+
+.experience {
+    margin: 10px 0px;
+}
+
+.experience-columns {
+    display: flex;
+    justify-content: space-between; /* Distribute space between left and right containers */
+    align-items: flex-start; /* Align items to the top */
+    gap: 10px; /* Optional: Add space between left and right containers */
+}
+
+.left {
+    font-weight: bold;
+    line-height: 13px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    text-align: left; /* Align text to the left */
+    flex: 1; /* Allow the left column to grow */
+}
+
+.right {
+    font-weight: bold;
+    line-height: 13px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    text-align: right; /* Align text to the right */
+    flex: 1; /* Allow the right column to grow */
+}
+
+.left span, .right span {
+    margin-bottom: 5px; /* Add space between spans */
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between; /* Distribute space between columns */
+    gap: 20px; /* Optional: Add space between columns */
+}
+
+.column {
+    flex: 1; /* Distribute space equally */
+    text-align: left; /* Align text to the left */
+}
+
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.eot");
+    src: url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0a6ee448d1bd65c56f6cf256a7c6f20a.svg#Bahnschrift")format("svg");
+}
+
+body {
+    font-family: "Bahnschrift", Arial, Helvetica, sans-serif; /* Use Bahnschrift with fallbacks */
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 10px; /* Adjust space between contact items */
+    font-family: "Bahnschrift", Arial, Helvetica, sans-serif; /* Use Bahnschrift with fallbacks */
+    font-size: 0.8em; /* Reduce font size */
+}
+
+.contact-info span {
+    white-space: nowrap; /* Prevent line breaks within spans */
+    flex-shrink: 1; /* Allow elements to shrink if necessary */
+}

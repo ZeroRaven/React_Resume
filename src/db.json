@@ -1,0 +1,65 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Shah",
+        "position": "Solutions Developer",
+        "phone": "+977 9813443841",
+        "address": "Bhaktapur, Nepal",
+        "linkedIn": "https://www.linkedin.com/in/amrace/",
+        "email": "amresh.shah@live.com",
+        "profile": "A motivated, conscientious, and visionary undergraduate student seeking to utilize past experiences to give back to the society. Driven and determined for self-learning and acquiring skills with minimal supervision and training.",
+        "professionalExperience": [
+          {
+            "position": "Apprentice Garage Fellow and Solutions Developer",
+            "company": "University of Victoria INSPIRE Program",
+            "duration": "AUGUST 2024 to JANUARY 2025",
+            "location": "LALITPUR, NEPAL",
+            "responsibilities": [
+              "Collaborated with a multidisciplinary team to co-design and develop technology solutions addressing social, economic, and environmental challenges.",
+              "Participated in workshops and training sessions, gaining hands-on experience in DevOps, API design, and agile project management methodologies.",
+              "Contributed to the research and development of sustainable technology initiatives under the guidance of industry mentors and academic experts from UVic."
+            ]
+          },
+          {
+            "position": "Student Partnership Program 2022",
+            "company": "Leapfrog Technology",
+            "duration": "October 2019 to MARCH 2022",
+            "location": "KATHMANDU, NEPAL",
+            "responsibilities": [
+              "Led a college team in the Leapfrog Student Partnership Program Hackathon, guiding peers in conceptualizing and developing a news portal website.",
+              "Recognized for outstanding documentation, presentation, and advertisement creation during the competition."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "degree": "B.E Computer Science and Engineering",
+            "institution": "Nepal Engineering College",
+            "duration": "NOVEMBER 2019 to JANUARY 2025",
+            "location": "CHANGUNARAYAN, BHAKTAPUR",
+            "details": [
+              "Club Affiliations: Led the CARRD and the Robotics Club",
+              "Relevant Coursework: Programming (C++, Java, Python), Data Structures & Algorithms, Object-Oriented Programming, Database Systems (SQL), Computer Networks, Operating Systems, Software Engineering",
+              "Electives: Big Data, Technology Innovation for Sustainable Development, Cloud Computing"
+            ]
+          },
+          {
+            "degree": "GCE Advanced Levels",
+            "institution": "St. Xavier's College Maitighar",
+            "duration": "APRIL 2015 to NOVEMBER 2017",
+            "location": "MAITIGHAR, KATHMANDU"
+          }
+        ],
+        "skills": {
+          "softwareProficiency": "Microsoft Office, Adobe Photoshop",
+          "multimediaProduction": "Video & Audio Editing, Media and Podcast Production",
+          "leadershipCommunication": "Leadership, Content Writing, Public Speaking",
+          "coreStrengths": "Adaptability, Team Collaboration, Project Management",
+          "webDevelopment": "HTML, CSS, JavaScript, WordPress",
+          "programmingLanguages": "Python, C#",
+          "databaseManagement": "SQL"
+        }
+      }
+    ]
+  }
